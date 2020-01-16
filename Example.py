@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#I added a new comment
 import math
 import scipy
 from scipy import optimize
@@ -188,5 +188,5 @@ for i in range(int((maxNT-1)/ratio)):
 
 
     if( i % 100 == 0):
-        print (str(NT-Ns)+ " / "+  str(maxNT) )
+        print (str(NT+Ns)+ " / "+  str(maxNT) )
 
